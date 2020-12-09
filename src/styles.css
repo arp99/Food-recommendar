@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+:root{
+  --color1: #e9f0ee;
+  --color2: #5b6466;
+  --color3: #d18857;
+  --color4: #993f04;
+}
+li{
+  list-style: none;
+  background: var(--color1);
+  text-align: left;
+  padding: 0.2rem 0 0.2rem 0.5rem;
+  width: 50%;
+  border-radius: 1rem;
+  border: 2px solid var(--color2);
+  box-shadow: 2px 4px 10px -1px var(--color2);
+  margin-bottom: 0.7rem;
+}
+li p{
+  line-height: 1rem;
+  font-family: cursive;
+}
+button{
+  background: var(--color3);
+  border: 2px solid var(--color4);
+  border-radius: 1rem;
+  color: #fff;
+  font-family: cursive;
+  outline: none;
+  cursor: pointer;
+}
